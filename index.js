@@ -7,7 +7,7 @@
 </script>
  _____________________________________________
 
-**Add to cart**
+<!-- Add to cart -->
 <script>
   fbq('track', 'AddToCart', {
     value: 0.01,
@@ -15,7 +15,7 @@
   });
 </script>
 
-**Iniciar finalização de compra**
+<!-- Iniciar finalização de compra -->
 <script>
 fbq('track', 'InitiateCheckout', {
 value: 0.01,
@@ -24,13 +24,13 @@ currency: 'BRL',
 </script>
 _____________________________________________
 
-**Adicionar formas de pagamento**
+<!-- Adicionar formas de pagamento -->
 <script>
   fbq('track', 'AddPaymentInfo');
 </script> 
 _____________________________________________
 
-**Compra Concluída**
+<!-- Compra Concluída -->
 <script>
   fbq('track', 'Purchase', {
     value: 0.01,
@@ -40,7 +40,7 @@ _____________________________________________
 
 _____________________________________________
 
-**Registro completo**
+<!-- Registro completo -->
 <script>
   fbq('track', 'CompleteRegistration', {
     value: 0.01,
@@ -48,12 +48,12 @@ _____________________________________________
   });
 </script>
 
-**Contato**
+<!-- Contato -->
 <script>
   fbq('track', 'Contact');
 </script>
 
-Cadastro**
+<!-- Cadastro -->
 <script>
   fbq('track', 'Lead', {
     value: 0.01,
@@ -61,7 +61,7 @@ Cadastro**
   });
 </script>
 
-**Assinar**
+<!-- Assinar -->
 <script>
   fbq('track', 'Subscribe', {
     value: 0.01,
@@ -69,12 +69,12 @@ Cadastro**
   });
 </script>
 
-**Encontrar Localização**
+<!-- Encontrar Localização -->
 <script>
   fbq('track', 'FindLocation');
 </script>
 
-**Pesquisar**
+<!-- Pesquisar -->
 <script>
   fbq('track', 'Search', {
     search_string: '0.01',
